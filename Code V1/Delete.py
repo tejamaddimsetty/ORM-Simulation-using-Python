@@ -9,7 +9,7 @@ class Delete:
 
         try:
             # Get record which needs to be deleted
-            sql = "Select * From records Where Id = %s"
+            sql = "Select * From record Where Id = %s"
             Id = id
             cursor = connection.cursor()
             cursor.execute(sql, [Id])
@@ -23,7 +23,7 @@ class Delete:
 
             # Delete after confirmation
             if confirm == 'Y' or 'y':
-                deleteQuery = "Delete From records Where Id = %s"
+                deleteQuery = "Delete From record Where Id = %s"
 
                 cursor.execute(deleteQuery, [Id])
                 connection.commit()

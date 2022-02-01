@@ -10,12 +10,14 @@ class Create:
 
         id = input('Enter Id = ')
         name = input('Enter Name = ')
+        clas = input('Enter Class = ')
         age = input('Enter Age = ')
+        school = input('Enter School = ')
 
 
         try:
-            query = "INSERT INTO records(Id, Name, Age) VALUES(%s, %s, %s)"
-            VALUES = id, name, age
+            query = "INSERT INTO record(Id, Name, Class, Age, School) VALUES(%s, %s, %s, %s, %s)"
+            VALUES = id, name, clas, age, school
             cursor = connection.cursor( )
 
             # Execute the sql query
@@ -24,7 +26,7 @@ class Create:
             # Commit the data
             connection.commit( )
             print('Data Saved Successfully')
-            print(id, name, age)
+            print(id, name, clas, age, school)
 
         except:
             print('Something wrong, please check')

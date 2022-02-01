@@ -15,7 +15,7 @@ def getConnection():
     data = cursor.fetchone( )
     print("Connection established to: ", data)
 
-    cursor.execute("Show tables;")
+    # cursor.execute("Show tables;")
 
     myresult = cursor.fetchall( )
 
