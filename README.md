@@ -10,9 +10,14 @@ DB Name: studs.\
 Table Name: records.\
 You can find queries in the 'db.sql' file
 
-### `Run Curd.py`
+### `CODE V1 - Run Curd.py`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Find the Curd.py for Code V1 project and run it.\
+
+### `CODE V2 - pip install requirements.txt`
+
+Navigate into project folder and execute the command.\
+Then run the python script. You can find the output.
+
 
 
