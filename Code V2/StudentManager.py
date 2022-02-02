@@ -21,9 +21,9 @@ db_cursor = db_connection.cursor(buffered=True)  # "buffered=True".makes db_curs
 class StudentApp(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title("Student Management System")
+        self.title("Zensar Training Project")
         self.geometry("800x650+351+174")
-        self.lblTitle = tk.Label(self, text="Student Management System", font=("Helvetica", 16), bg="yellow", fg="green")
+        self.lblTitle = tk.Label(self, text="Zensar Training Project", font=("Helvetica", 16), bg="yellow", fg="green")
         self.lblFName = tk.Label(self, text="Enter FirstName:", font=("Helvetica", 10), bg="blue", fg="yellow")
         self.lblLName = tk.Label(self, text="Enter LastName:", font=("Helvetica", 10), bg="blue", fg="yellow")
         self.lblContactNo = tk.Label(self, text="Enter Contact No:", font=("Helvetica", 10), bg="blue", fg="yellow")
