@@ -15,10 +15,9 @@ class Update:
             cursor = connection.cursor()
             cursor.execute(sql, [Id])
             item = cursor.fetchone()
-            print('Data Fetched for Id = ', Id)
-            print('ID\t\t Name\t\t\t Age\t\t\t Class\t\t\t School')
+            print('Data Fetched for Id = ', Id)print('ID\t\t Name\t\t\t Age\t\t\t\t Class\t\t\t\t\t School')
             print('---------------------------------------------------------------')
-            print(' {}\t\t {} \t\t\t{} '.format(item[0], item[1], item[2], item[3], item[4]))
+            print(' {}\t\t {} \t\t\t{} \t\t\t\t{} \t\t\t\t\t{}'.format(item[0], item[1], item[2], item[3], item[4]))
             print('---------------------------------------------------------------')
             print('Enter New Data To Update Candidate Record ')
 
