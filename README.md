@@ -9,7 +9,7 @@ You can find the required packages in `requirements.txt`.
 
 Create SQL DB and Table in SQL Client itself.\
 DB Name: studs.\
-Table Name: records.\
+Table Name: record.\
 You can find queries in the `db.sql` file
 
 ### CODE V1 - Run Curd.py
@@ -21,5 +21,10 @@ Find the `Curd.py` for Code V1 project and run it.\
 Navigate into project folder and execute the command.\
 Then run the python script. You can find the output.
 
+
+### Final Submission - pip install requirements.txt
+
+Set the DB name and table names in case you have any.
+Navigate into project folder and execute `1.py`.\
 
 
