@@ -7,7 +7,7 @@ In the project we used 'MYSQL', [tkcalander](https://pypi.org/project/tkcalendar
 You can find the required packages in `requirements.txt`.
 ## Create Database and Table
 
-Create SQL DB and Table in SQL Client itself.\
+Create SQL DB and Table in SQL Client itself. Find the queries reference in `db.sql`\
 DB Name: studs.\
 Table Name: record.\
 You can find queries in the `db.sql` file
