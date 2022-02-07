@@ -14,17 +14,17 @@ You can find queries in the `db.sql` file
 
 ### CODE V1 - Run Curd.py
 
-Find the `Curd.py` for Code V1 project and run it.\
+Find the `curd.py` in Code V1 project and run it.
 
 ### CODE V2 - pip install requirements.txt
 
-Navigate into project folder and execute the command.\
+Navigate into project folder and execute `curd.py`.\
 Then run the python script. You can find the output.
 
 
 ### Final Submission - pip install requirements.txt
 
-Set the DB name and table names in case you have any.
-Navigate into project folder and execute `1.py`.\
+Set the DB name and table names in case you have any.\
+Navigate into project folder and execute `1.py`.
 
 
