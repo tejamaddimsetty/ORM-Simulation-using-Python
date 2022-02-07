@@ -3,7 +3,7 @@ Build a simulation of an ORM.\
 ORM is one of the prefered methods of interacting with database in a web or desktop application. In this project we are trying to simulate this ORM using python or MYSQL or any database as backend and perfrom CURD operations on it. The details of the requirement are as mentioned below.
 ## Getting Started with Python Project
 This project comprises with GUI Component execution and CMD execution with decorators.\
-In the project we used 'MYSQL', 'tkcalander', [mysql.connector](https://pypi.org/project/mysql-connector-python/), [prettytable](https://pypi.org/project/prettytable/).\ 
+In the project we used 'MYSQL', 'tkcalander', [mysql.connector](https://pypi.org/project/mysql-connector-python/), [prettytable](https://pypi.org/project/prettytable/)..\ 
 You can find the required packages in `requirements.txt`.
 ## Create Database and Table
 
